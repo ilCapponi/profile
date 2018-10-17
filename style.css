@@ -1,7 +1,7 @@
 
 
 h1, h2, h3 {
-color: #505060;
+color: #404050;
 font-family: Montserrat;
 }
 
@@ -24,6 +24,15 @@ ul {
 
 }
 
+table {
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 0 10px;
+}
+
+
 .container {
 width: 500px;
 margin: 30px auto;
@@ -42,13 +51,21 @@ margin: 30px auto;
 
 #image-circle {
 
-    width: 300px;
-    height: 200px;
-    border-radius: 55px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
-    margin: auto;
+    margin: 20px 0 0 0;
 
 }
+
+.dog-image {
+  width: 100px;
+  border-radius: 55px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.3);
+
+}
+
 
 .list-inline > li {
   display: inline-block;
@@ -59,12 +76,21 @@ margin: 30px auto;
   padding-left: 0px;
 }
 
+.text-padding {
+
+margin: 5px 40px;
+
+}
+
 .text-center {
     text-align: center;
 }
 
 
-
+.fab {
+  width: 100px;
+  color: #404050;
+}
 
 
 @media (max-width: 960px) {
